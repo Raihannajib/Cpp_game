@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/NAJIB RAIHAN/CLionProject/najib_raihan_cpp-game/Helper.h
+iostream
+-
+cstdlib
+-
+vector
+-
+string
+-
+array
+-
+
+C:/Users/NAJIB RAIHAN/CLionProject/najib_raihan_cpp-game/Jeu.h
+Helper.h
+C:/Users/NAJIB RAIHAN/CLionProject/najib_raihan_cpp-game/Helper.h
+
+C:/Users/NAJIB RAIHAN/CLionProject/najib_raihan_cpp-game/Joueur.h
+Helper.h
+C:/Users/NAJIB RAIHAN/CLionProject/najib_raihan_cpp-game/Helper.h
+Jeu.h
+C:/Users/NAJIB RAIHAN/CLionProject/najib_raihan_cpp-game/Jeu.h
+
+C:/Users/NAJIB RAIHAN/CLionProject/najib_raihan_cpp-game/Partie.h
+Helper.h
+C:/Users/NAJIB RAIHAN/CLionProject/najib_raihan_cpp-game/Helper.h
+Joueur.h
+C:/Users/NAJIB RAIHAN/CLionProject/najib_raihan_cpp-game/Joueur.h
+
+C:/Users/NAJIB RAIHAN/CLionProject/najib_raihan_cpp-game/main.cpp
+Helper.h
+C:/Users/NAJIB RAIHAN/CLionProject/najib_raihan_cpp-game/Helper.h
+typeinfo
+-
+Jeu.h
+C:/Users/NAJIB RAIHAN/CLionProject/najib_raihan_cpp-game/Jeu.h
+Joueur.h
+C:/Users/NAJIB RAIHAN/CLionProject/najib_raihan_cpp-game/Joueur.h
+Partie.h
+C:/Users/NAJIB RAIHAN/CLionProject/najib_raihan_cpp-game/Partie.h
+
